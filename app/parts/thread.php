@@ -8,7 +8,7 @@ include("app/functions/thread_get.php");
     <div class="threadWrapper">
         <div class="childWrapper">
             <div class="threadTitle">
-                <span>【タイトル】</span>
+                <span>《スレッド》</span>
                 <h1><?php echo $thread["title"] ?></h1>
             </div>
 

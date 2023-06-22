@@ -1,7 +1,6 @@
 <?php
 
 include_once("./app/database/connect.php");
-require './vendor/autoload.php';
 
 
 ?>
@@ -19,9 +18,9 @@ require './vendor/autoload.php';
 
 <body>
     <?php include("app/parts/header.php"); ?>
+    <?php include("app/parts/newThreadButton.php"); ?>
     <?php include("app/parts/validation.php"); ?>
     <?php include("app/parts/thread.php"); ?>
-    <?php include("app/parts/newThreadButton.php"); ?>
 </body>
 
 </html>

@@ -36,7 +36,7 @@ body {
 }
 
 .threadTitle h1 {
-  color: red;
+  color: rgb(29, 0, 136);
   margin-left: 3px;
   font-size: 27px;
 }
@@ -78,9 +78,8 @@ section .comment {
   margin-left: 70px;
 }
 
-/* 新規スレッド */
 .newThreadWrapper {
-  background-color: #b3eeb3;
+  background-color: #b17c2de5;
   padding: 10px;
   max-width: 1300px;
   margin: 0 auto;
@@ -96,6 +95,6 @@ section .comment {
 
 .newChildThreadWrapper button a {
   width: 150px;
-  color: black;
+  color: rgb(175, 3, 3);
   text-decoration: none;
 }
