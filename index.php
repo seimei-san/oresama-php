@@ -2,7 +2,6 @@
 
 include_once("./app/database/connect.php");
 
-
 ?>
 
 <!DOCTYPE html>

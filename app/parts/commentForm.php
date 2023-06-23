@@ -22,9 +22,14 @@ if (isset($_POST["submitButton"])) {
 <script>
     $(document).ready(() => {
         $("input[type=submit]").click(() => {
+            console.log('SOUND');
+            let play_sound = new Audio('./app/assets/media/se_13_gun.wav');
+            // let play_sound = new Audio('./assets/media/se_13_13_gun.wav');
+            play_sound.play();
             let position = $(window).scrollTop();
             $("input:hidden[name=position]").val(position);
         })
         $(window).scrollTop(<?php echo $position; ?>);
     })
+
 </script>
