@@ -52,5 +52,5 @@ if (isset($_POST["threadSubmitButton"])) {
         }
     }
 
-    header("Location: http://localhost:8080/2chan-bbs");
+    header("Location: http://localhost:8080/oresama-php");
 }

@@ -20,6 +20,14 @@ include_once("./app/database/connect.php");
     <?php include("app/parts/newThreadButton.php"); ?>
     <?php include("app/parts/validation.php"); ?>
     <?php include("app/parts/thread.php"); ?>
+
+    <script>
+    async function audio() {
+        console.log("AUDIO");
+        let play_sound = new Audio('./assets/sounds/se_13_gun.wav');
+        await play_sound.play();
+    }
+    </script>
 </body>
 
 </html>

@@ -12,7 +12,7 @@ include("../../app/functions/thread_add.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新規スレッド作成ページ</title>
+    <title>オレサマ・スレッド作成ページ</title>
     <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
@@ -20,8 +20,8 @@ include("../../app/functions/thread_add.php");
     <?php include("../../app/parts/header.php"); ?>
     <?php include("../parts/validation.php"); ?>
 
-    <div style="padding-left: 36px; color: blue;">
-        <h2 style="margin-top: 20px; margin-bottom: 0;">新規スレッド立ち上げ場</h2>
+    <div style="padding-left: 36px; color: white;">
+        <h2 style="margin-top: 20px; margin-bottom: 0;">新規スレッド撃ち上げ場</h2>
     </div>
     <form method="POST" class="formWrapper">
         <div>
@@ -33,7 +33,7 @@ include("../../app/functions/thread_add.php");
         <div>
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
-        <input type="submit" value="立ち上げ" name="threadSubmitButton">
+        <input type="submit" value="撃ち上げ" name="threadSubmitButton">
     </form>
 </body>
 

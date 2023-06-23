@@ -7,7 +7,13 @@ body {
   margin: 0 auto;
 }
 
+input {
+  border-radius: 5px;
+}
 
+textarea {
+  border-radius: 5px;
+}
 .title {
   text-align: center;
   font-size: 34px;
@@ -20,11 +26,13 @@ body {
   margin: 0 auto;
   border: 1px solid black;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .childWrapper {
   border: 1px solid black;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .threadTitle {
@@ -64,6 +72,7 @@ section .comment {
 .formWrapper {
   padding: 16px;
   margin-left: 20px;
+  border-radius: 10px;
 }
 
 .commentTextArea {
@@ -85,16 +94,19 @@ section .comment {
   margin: 0 auto;
   border: 1px solid black;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .newChildThreadWrapper {
   text-align: center;
   padding: 10px;
   border: 1px solid black;
+  border-radius: 10px;
 }
 
 .newChildThreadWrapper button a {
   width: 150px;
   color: rgb(175, 3, 3);
   text-decoration: none;
+  border-radius: 10px;
 }
