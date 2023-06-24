@@ -21,7 +21,7 @@ include("../../app/functions/thread_add.php");
     <?php include("../parts/validation.php"); ?>
 
     <div style="padding-left: 36px; color: white;">
-        <h2 style="margin-top: 20px; margin-bottom: 0;">新規スレッド撃ち上げ場</h2>
+        <h2 style="margin-top: 20px; margin-bottom: 0;">新規スレッド射撃場</h2>
     </div>
     <form method="POST" class="formWrapper">
         <div>
@@ -33,7 +33,7 @@ include("../../app/functions/thread_add.php");
         <div>
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
-        <input type="submit" value="撃ち上げ" name="threadSubmitButton">
+        <input type="submit" value="撃つ！" name="threadSubmitButton">
     </form>
 </body>
 

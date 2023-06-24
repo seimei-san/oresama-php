@@ -6,14 +6,14 @@ session_start();
 if (isset($_POST["submitButton"])) {
 
     if (empty($_POST["username"])) {
-        $error_message["username"] = "お名前を入力してください。";
+        $error_message["username"] = "名前を入力しろ！";
     } else {
         $escaped["username"] = htmlspecialchars($_POST["username"], ENT_QUOTES, "UTF-8");
         $_SESSION["username"] = $escaped["username"];
     }
 
     if (empty($_POST["body"])) {
-        $error_message["body"] = "コメントを入力してください。";
+        $error_message["body"] = "コメントを入力をしろ！";
     } else {
         $escaped["body"] = htmlspecialchars($_POST["body"], ENT_QUOTES, "UTF-8");
     }
