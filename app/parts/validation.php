@@ -1,4 +1,3 @@
-    <!-- バリデーションチェックのエラー文吐きだし -->
     <?php if (isset($error_message)) : ?>
         <ul class="errorMessage">
             <?php foreach ($error_message as $error) : ?>
